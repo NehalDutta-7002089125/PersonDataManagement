@@ -15,5 +15,13 @@ namespace Lembda
                 Console.WriteLine(result.SSN);
             }
         }
+        public void RetreiveAllRecordsOfAge(List<Person> person)
+        {
+            var data = person.Where(x => x.Age > 13 && x.Age < 18).ToList();
+            foreach (var result in data)
+            {
+                Console.WriteLine(result.SSN);
+            }
+        }
     }
 }
