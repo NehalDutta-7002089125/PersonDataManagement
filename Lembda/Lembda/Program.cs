@@ -19,8 +19,9 @@ namespace Lembda
             }
 
             Operations operations = new Operations();
-           // operations.RetreiveTopRecordsOfAge(people);
-            operations.RetreiveAllRecordsOfAge(people);
+            // operations.RetreiveTopRecordsOfAge(people);
+            // operations.RetreiveAllRecordsOfAge(people);
+            operations.AverageAge(people);
         }
     }
 }
